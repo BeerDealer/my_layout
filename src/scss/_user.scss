@@ -1,0 +1,36 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+
+html{
+  font-size: 2vw;
+  @include media-breakpoint-up(sm){
+    font-size: 1vw;
+  }
+}
+
+
+.w-mai-icon{
+  width: 6rem;
+  //for tablets & desktop
+  @include media-breakpoint-up(sm){
+    width: 4rem;
+  }
+}
+
+.fs-circle-icon{
+  font-size: 2.25rem;
+  //for tablets & desktop
+  @include media-breakpoint-up(sm){
+    font-size: 1.6rem;
+  }
+}
+
+.fs-badge-icon{
+  font-size: 3.1rem;
+  //for tablets & desktop
+  @include media-breakpoint-up(sm){
+    font-size: 2.25rem;
+  }
+}
