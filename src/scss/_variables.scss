@@ -38,6 +38,7 @@ $warning:                     #ffba08 !default;
 $danger:                      #ef4444 !default;
 $light:                       $white !default;
 $dark:                        $gray-900 !default;
+$mai:                         #8c65ff !default;
 
 $primary-text-emphasis:       darken($primary, 10%) !default;
 $secondary-text-emphasis:     $gray-700 !default;
@@ -75,7 +76,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "mai":        $mai
 ) !default;
 
 // Faded colors map
